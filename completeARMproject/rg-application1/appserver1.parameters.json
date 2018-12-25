@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "serverName": {
+      "value": "appserver1"
+    },
+    "serverAdminUserName": {
+      "value": "samadmin"
+    },
+    "serverAdminPassword": {
+      "value": "Jan@2018P@ssw0rd"
+    },
+    "pipDnsName": {
+      "value": "appserver1pip123sam11"
+    }
+  }
+}
